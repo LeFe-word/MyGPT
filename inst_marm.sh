@@ -5,8 +5,8 @@ pip3 install python-telegram-bot openai configparser
 mkdir marmelad
 cd marmelad
 
-wget https://github.com/LeFe-word/MyGPT/blob/main/marm5.py
-wget https://github.com/LeFe-word/MyGPT/blob/main/marmelad-bot.service
+wget https://raw.githubusercontent.com/LeFe-word/MyGPT/main/marm5.py
+wget https://raw.githubusercontent.com/LeFe-word/MyGPT/main/marmelad-bot.service
 mv marmelad-bot.service /etc/systemd/system/
 
 echo "Please enter bot token:"
