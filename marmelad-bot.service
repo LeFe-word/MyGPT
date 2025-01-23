@@ -1,0 +1,12 @@
+[Unit]
+Description=ChatGPT Telegram Bot
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /root/marmelad/marm5.py
+WorkingDirectory=/root/marmelad
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
